@@ -1,0 +1,15 @@
+Manual de instalacion proyecto laravel
+
+  -Bajar el archivo zip y descomprimirlo donde se desee alojar el proyecto
+  -crear la base de datos del proyecto, en la configuracion se llama inicio_laravel, si desea cambiar el nombre e la base de datos recuerde tambien cambiarlo en el archivo .env
+  -Abrir el archivo .env y configurar los datos de la bd (nombre_db, usuario, contraseña)
+  -Navegar en la consola a la carpeta del proyecto ejecutar las migraciones de las tablas para la bd con el codigo "php artisan migrate" en la consola
+  -Ejecutar las seeder de las tablas para agregar los datos por defecto del usuario admin codigo "php artisan db:seed"
+  -Una vez ejecutado todo ya puede correr el proyecto, si desea puede crear un virtualhost para el proyecto
+
+Usuario admin por defecto
+
+username: admin
+password: admin1234
+
+Creado Por: Maycol David Sanchez Mora
