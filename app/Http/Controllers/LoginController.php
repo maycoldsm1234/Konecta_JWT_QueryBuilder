@@ -33,7 +33,7 @@ class LoginController extends Controller
             return response()->json([
 				'type' => 'error',
 				'msg'  => 'Sin Autorizacion'
-			], 401);
+			]);
         }
 		
 		setcookie("jwt_token", $token);
